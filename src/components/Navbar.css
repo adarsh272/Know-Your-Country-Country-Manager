@@ -1,0 +1,37 @@
+.navbar{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    color: hsl(200, 15%, 8%);
+}
+
+.navbar > h1{
+    margin:15px 0 15px 50px;
+    font-size: 1.5rem;
+}
+
+.dark-mode-span{
+    margin: 10px 50px 15px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dark-mode-span:hover{
+    background: hsl(209, 23%, 22%);
+    color: white;
+    transition: 0.3s ease;
+    border-radius: 2px;
+    
+}
+
+@media (max-width: 500px) {
+    .navbar > h1{
+        margin:15px 0 10px 20px;
+        font-size: 1rem;
+    }
+
+    .dark-mode-span{
+        margin: 10px 10px 10px 0;
+        font-size: 0.5rem;
+    }
+}

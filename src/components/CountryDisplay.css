@@ -1,0 +1,57 @@
+:root{
+    --light-mode-text: hsl(200, 15%, 8%);
+    --light-mode-text-small: hsl(0, 0%, 52%);
+}
+
+*{
+    text-align: left;
+}
+
+input{
+    width: 25%;
+    border: none;
+    padding: 20px 20px 20px 80px;
+    height: 10px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    margin:50px 0 15px 50px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    color: var(--light-mode-text-small);
+}
+
+.search-icon{
+    position: absolute;
+    margin: 65px 0 0 80px;
+    color: var(--light-mode-text-small);
+}
+
+.container{
+    margin: 50px 0 15px 50px;
+}
+
+.card-rows{
+    display: grid;
+    gap: 1em;
+    row-gap: 3em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));   
+}
+
+@media(max-width: 500px){
+    input{
+        width: calc(100% - 110px);
+        font-size: 0.5rem;
+        padding: 10px 10px 10px 60px;
+        margin: 20px;
+    }
+
+    .search-icon{
+        margin: 27px 0 0 30px ;
+    }
+
+    .container{
+        margin: 30px 0 15px 50px;
+    }
+}
+
+
+
