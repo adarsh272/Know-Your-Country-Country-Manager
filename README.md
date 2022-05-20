@@ -1,3 +1,13 @@
+Browse through all the countries in the world or search for any
+specific country and get the necessary details for that country. 
+
+Tech Stack: React, React Routing, CSS, RestAPI
+
+CSS: Implementation of Grid for a clean and responsive UI
+
+Hosted Link: https://sage-kleicha-91e27b.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
